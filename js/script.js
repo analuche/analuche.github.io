@@ -1,0 +1,86 @@
+$(document).ready(function(){
+    $('#invernadas').click(function () {
+     $("#inicial").hide();
+     $("#contatos").hide();
+     $("#evento").hide();
+     $("#invernada").show();
+      
+
+    });
+    $('#eventos').click(function(){
+        $("#inicial").hide();
+        $("#invernada").hide();
+        $("#contatos").hide();
+        $("#evento").show();
+
+    });
+    $('#contato').click(function(){
+        $("#inicial").hide();
+        $("#invernada").hide();
+        $("#evento").hide();
+        $("#lema").hide();
+        $("#contatos").show();
+
+    });
+    $('#logoImg').click(function(){
+        $("#inicial").show();
+        $("#lema").show();
+        $("#mini").hide();
+        $("#evento").hide();
+        $("#juvenil1").hide();
+        $("#mirim1").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        
+    });
+    $('#miniMirim').click(function(){
+        $("#inicial").hide();
+        $("#contatos").hide();
+        $("#evento").hide();
+        $("#juvenil1").hide();
+        $("#mirim1").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        $("#mini").show();
+    });
+    $('#mirim').click(function(){
+        $("#inicial").hide();
+        $("#contatos").hide();
+        $("#evento").hide();
+        $("#juvenil1").hide();
+        $("#mini").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        $("#mirim1").show();
+    });
+    $('#juvenil').click(function(){
+        $("#inicial").hide();
+        $("#contatos").hide();
+        $("#evento").hide();
+        $("#juvenil1").show();
+        $("#mini").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        $("#mirim1").hide();
+    });
+    $('#adulta').click(function(){
+        $("#inicial").hide();
+        $("#contatos").hide();
+        $("#evento").hide();
+        $("#juvenil1").hide();
+        $("#mini").hide();
+        $("#adulta1").show();
+        $("#xiru").hide();
+        $("#mirim1").hide();
+    });
+    $('#veterana').click(function(){
+        $("#inicial").hide();
+        $("#contatos").hide();
+        $("#evento").hide();
+        $("#juvenil1").hide();
+        $("#mini").hide();
+        $("#adulta1").hide();
+        $("#xiru").show();
+        $("#mirim1").hide();
+    });
+});

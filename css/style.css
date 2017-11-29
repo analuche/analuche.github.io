@@ -1,0 +1,85 @@
+@font-face{
+    font-family: fonte;
+    src:url("../fontes/fonte.otf");
+}
+.nav-link{
+    font-family: fonte;
+    color:#28a745;  
+    margin: 2px;
+    background-color:#f8f9fa; 
+}
+.nav-link:hover{
+ 
+    color: #28a745;
+}
+.navbar-brand{
+  font-family: fonte;
+}
+#logoImg{
+    border-radius: 20%;
+    margin: 5px;
+}
+#botaoInv{
+    border: none;
+    font-family: fonte;
+    font-size: 17px;
+}
+#botaoInv:hover{
+    color:#28a745;
+    background-color:#f8f9fa;
+}
+#mini{
+    display: none;
+}
+#frente{   
+	height:500px;
+    margin: 20px;   
+}
+#miniMirim{
+    color: #28a745;
+}
+#mirim{
+    color: #28a745;
+}
+#mirim1{
+    display: none;
+}
+#juvenil{
+    color: #28a745;
+}
+#juvenil1{
+    display: none;
+}
+#adulta{
+    color: #28a745;
+}
+#adulta1{
+    display: none;
+}
+#veterana{
+    color: #28a745;
+}
+#xiru{
+    display: none;
+}
+#evento{
+    display: none;
+    margin: auto;
+    font-style: oblique;   
+    color: #28a745;
+    
+}
+#contatos{
+    display: none;
+}
+#lema{
+    margin: 10px;
+    text-align: center; 
+    font-size: 24px; 
+}
+#lema2{
+    text-align: center;    
+    font-size: 17px;  
+
+    color:#aaa; 
+}
