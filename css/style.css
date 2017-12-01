@@ -1,6 +1,15 @@
+
 @font-face{
     font-family: fonte;
     src:url("../fontes/fonte.otf");
+}
+@font-face{
+    font-family: rancho;
+    src:url("../fontes/rancho.ttf");
+}
+@font-face{
+    font-family: prole;
+    src:url("../fontes/prole.ttf");
 }
 .nav-link{
     font-family: fonte;
@@ -71,15 +80,51 @@
 }
 #contatos{
     display: none;
+    text-align: center;
+    margin-top: 10px;
+    color: #28a745;
+    
+}
+#con{
+    filter: grayscale(100%);
+}
+#con:hover{
+    filter: grayscale(0%);
 }
 #lema{
-    margin: 10px;
+    margin-top: 20px;
     text-align: center; 
-    font-size: 24px; 
+    font-size: 15px; 
+    font-family: oblique;
+    width: 800px;
 }
-#lema2{
-    text-align: center;    
-    font-size: 17px;  
-
-    color:#aaa; 
+#lema>h3{
+    color:#28a745;
+}
+#desMini{
+    display: none;
+    text-align: center; 
+}
+#desMirim{
+    display: none;
+    text-align: center; 
+}
+#desJuv{
+    display: none;
+    margin-top: 13px;
+    text-align: center; 
+}
+#desAdul{
+    display: none;
+    text-align: center; 
+}
+#desXiru{
+    display: none;
+    text-align: center; 
+}
+h1{
+    font-family: rancho;
+}
+h2{
+    font-family: prole;
 }

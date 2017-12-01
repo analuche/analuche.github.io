@@ -1,36 +1,53 @@
 $(document).ready(function(){
-    $('#invernadas').click(function () {
-     $("#inicial").hide();
-     $("#contatos").hide();
-     $("#evento").hide();
-     $("#invernada").show();
-      
-
-    });
-    $('#eventos').click(function(){
+     $('#eventos').click(function(){
         $("#inicial").hide();
-        $("#invernada").hide();
         $("#contatos").hide();
+        $("#lema").hide();
         $("#evento").show();
+        $("#mini").hide();
+        $("#juvenil1").hide();
+        $("#mirim1").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
 
     });
     $('#contato').click(function(){
         $("#inicial").hide();
-        $("#invernada").hide();
         $("#evento").hide();
         $("#lema").hide();
         $("#contatos").show();
-
+        $("#mini").hide();
+        $("#juvenil1").hide();
+        $("#mirim1").hide();
+        $("#adulta1").hide();
+        $("#xiru").hide();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
     });
     $('#logoImg').click(function(){
         $("#inicial").show();
         $("#lema").show();
+        $("#contatos").hide();
         $("#mini").hide();
         $("#evento").hide();
         $("#juvenil1").hide();
         $("#mirim1").hide();
         $("#adulta1").hide();
         $("#xiru").hide();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
+        
         
     });
     $('#miniMirim').click(function(){
@@ -41,7 +58,13 @@ $(document).ready(function(){
         $("#mirim1").hide();
         $("#adulta1").hide();
         $("#xiru").hide();
+        $("#lema").hide();
         $("#mini").show();
+        $("#desJuv").hide();
+        $("#desMini").show();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
     });
     $('#mirim').click(function(){
         $("#inicial").hide();
@@ -51,7 +74,13 @@ $(document).ready(function(){
         $("#mini").hide();
         $("#adulta1").hide();
         $("#xiru").hide();
+        $("#lema").hide();
         $("#mirim1").show();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").show();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
     });
     $('#juvenil').click(function(){
         $("#inicial").hide();
@@ -62,6 +91,12 @@ $(document).ready(function(){
         $("#adulta1").hide();
         $("#xiru").hide();
         $("#mirim1").hide();
+        $("#lema").hide();
+        $("#desJuv").show();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").hide();
     });
     $('#adulta').click(function(){
         $("#inicial").hide();
@@ -72,6 +107,13 @@ $(document).ready(function(){
         $("#adulta1").show();
         $("#xiru").hide();
         $("#mirim1").hide();
+        $("#lema").hide();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").show();
+        $("#desXiru").hide();
+        
     });
     $('#veterana').click(function(){
         $("#inicial").hide();
@@ -82,5 +124,12 @@ $(document).ready(function(){
         $("#adulta1").hide();
         $("#xiru").show();
         $("#mirim1").hide();
+        $("#lema").hide();
+        $("#desJuv").hide();
+        $("#desMini").hide();
+        $("#desMirim").hide();
+        $("#desAdul").hide();
+        $("#desXiru").show();
+        
     });
 });
