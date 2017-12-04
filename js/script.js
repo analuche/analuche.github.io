@@ -14,7 +14,9 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").hide();
-
+        $("#gmail").hide();
+        $("#telefones").hide();
+        
     });
     $('#contato').click(function(){
         $("#inicial").hide();
@@ -31,6 +33,9 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").hide();
+        $("#gmail").hide();
+        $("#telefones").hide();
+        
     });
     $('#logoImg').click(function(){
         $("#inicial").show();
@@ -47,7 +52,8 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").hide();
-        
+        $("#gmail").hide();
+        $("#telefones").hide();
         
     });
     $('#miniMirim').click(function(){
@@ -65,6 +71,9 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").hide();
+        $("#gmail").hide();
+        $("#telefones").hide();
+        
     });
     $('#mirim').click(function(){
         $("#inicial").hide();
@@ -81,6 +90,9 @@ $(document).ready(function(){
         $("#desMirim").show();
         $("#desAdul").hide();
         $("#desXiru").hide();
+        $("#gmail").hide();
+        $("#telefones").hide();
+        
     });
     $('#juvenil').click(function(){
         $("#inicial").hide();
@@ -97,6 +109,9 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").hide();
+        $("#gmail").hide();
+        $("#telefones").hide();
+  
     });
     $('#adulta').click(function(){
         $("#inicial").hide();
@@ -113,7 +128,9 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").show();
         $("#desXiru").hide();
-        
+        $("#gmail").hide();
+        $("#telefones").hide();
+       
     });
     $('#veterana').click(function(){
         $("#inicial").hide();
@@ -130,6 +147,16 @@ $(document).ready(function(){
         $("#desMirim").hide();
         $("#desAdul").hide();
         $("#desXiru").show();
-        
+        $("#gmail").hide();
+        $("#telefones").hide();
+    });
+    $('#mail').click(function(){
+      $("#gmail").show(800);
+      $("#telefones").hide();
+    });
+    $('#tele').click(function(){
+      $("#telefones").show(800);
+      $("#gmail").hide();
+      
     });
 });

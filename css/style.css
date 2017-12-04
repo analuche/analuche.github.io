@@ -76,7 +76,7 @@
     margin: auto;
     font-style: oblique;   
     color: #28a745;
-    
+    text-align: center;
 }
 #contatos{
     display: none;
@@ -87,9 +87,32 @@
 }
 #con{
     filter: grayscale(100%);
+    margin: 20px;
+    width: 70px;
 }
 #con:hover{
     filter: grayscale(0%);
+}
+#mail{
+   filter: grayscale(100%);
+   margin: 20px;
+   width: 70px;
+   
+}
+#mail:hover{
+    filter: grayscale(0%);
+}
+#tele{
+   filter: grayscale(100%);
+   margin: 20px;
+   width: 70px;
+   
+}
+#tele:hover{
+    filter: grayscale(0%);
+}
+#midias{
+    margin-top: 20px; 
 }
 #lema{
     margin-top: 20px;
@@ -97,6 +120,7 @@
     font-size: 15px; 
     font-family: oblique;
     width: 800px;
+    width: 100%;
 }
 #lema>h3{
     color:#28a745;
@@ -122,9 +146,20 @@
     display: none;
     text-align: center; 
 }
+#gmail{
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#telefones{
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
 h1{
     font-family: rancho;
 }
 h2{
-    font-family: prole;
+    font-family: rancho;
 }
