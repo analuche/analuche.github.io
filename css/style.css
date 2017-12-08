@@ -7,6 +7,10 @@
     font-family: rancho;
     src:url("../fontes/rancho.ttf");
 }
+@font-face{
+    font-family: cali;
+    src:url("../fontes/cali.ttf");
+}
 .nav-link{
     font-family: fonte;
     color:#28a745;  
@@ -76,10 +80,8 @@
 }
 #contatos{
     display: none;
-    text-align: center;
-    
-    color: #28a745;
-    
+    text-align: center;    
+    color: #28a745;    
 }
 #con{
     filter: grayscale(100%);
@@ -92,8 +94,7 @@
 #mail{
    filter: grayscale(100%);
    margin: 20px;
-   width: 70px;
-   
+   width: 70px;   
 }
 #mail:hover{
     filter: grayscale(0%);
@@ -101,8 +102,7 @@
 #tele{
    filter: grayscale(100%);
    margin: 20px;
-   width: 70px;
-   
+   width: 70px;   
 }
 #tele:hover{
     filter: grayscale(0%);
@@ -124,10 +124,12 @@
 #desMini{
     display: none;
     text-align: center; 
+    margin-top: 13px;
 }
 #desMirim{
     display: none;
     text-align: center; 
+    margin-top: 13px;
 }
 #desJuv{
     display: none;
@@ -137,10 +139,12 @@
 #desAdul{
     display: none;
     text-align: center; 
+    margin-top: 13px;
 }
 #desXiru{
     display: none;
     text-align: center; 
+    margin-top: 13px;
 }
 #gmail{
     display: none;
@@ -151,7 +155,7 @@
     display: none;
     margin-top: 20px;
     font-size: 18px;
-    list-style-type: none;
+    list-style-type: none;    
 }
 h1{
     font-family: rancho;
@@ -161,4 +165,119 @@ h2{
 }
 h3{
     font-family: rancho;
+}
+
+.eventosFotos {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/titulados.JPG');
+}
+
+.eventosFotos > h1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotos > h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
+}
+.eventosFotosNiver {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/aniversario.JPG');
+}
+
+.eventosFotosNiver > h1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotosNiver > h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
+}
+.eventosFotosEstreia{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/estreiaadul.JPG');
+}
+
+.eventosFotosEstreia > h1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotosEstreia > h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
+}
+.eventosFotosRodeio{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/rodeio2.jpg');
+}
+
+.eventosFotosRodeio > h1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotosRodeio > h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
+}
+.eventosFotosFest{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/rodeio.jpg');
+}
+
+.eventosFotosFest > h1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotosFest> h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
+}
+.eventosFotosAber{
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url('../imagens/abertura.JPG');
+}
+
+.eventosFotosAber > h1 {
+    width: 100%;
+    height: 100%; 
+    display: block;
+    color:  transparent;
+}
+
+.eventosFotosAber> h1:hover {
+    color: white;
+    opacity: 0.5;
+    background-color: black;
 }
