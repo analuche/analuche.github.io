@@ -38,8 +38,8 @@ $(document).ready(function(){
         
     });
     $('#logoImg').click(function(){
-        $("#inicial").show();
-        $("#lema").show();
+        $("#inicial").show(1000);
+        $("#lema").show(1500);
         $("#contatos").hide();
         $("#mini").hide();
         $("#evento").hide();

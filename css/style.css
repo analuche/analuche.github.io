@@ -11,18 +11,13 @@
     font-family: cali;
     src:url("../fontes/cali.ttf");
 }
-.nav-link{
-    font-family: fonte;
+.nav-link{   
     color:#28a745;  
     margin: 2px;
     background-color:#f8f9fa; 
 }
-.nav-link:hover{
- 
+.nav-link:hover{ 
     color: #28a745;
-}
-.navbar-brand{
-  font-family: fonte;
 }
 #logoImg{
     border-radius: 20%;
@@ -30,7 +25,6 @@
 }
 #botaoInv{
     border: none;
-    font-family: fonte;
     font-size: 17px;
 }
 #botaoInv:hover{
@@ -73,7 +67,7 @@
 }
 #evento{
     display: none;
-    margin: auto;
+    margin:auto;
     font-style: oblique;   
     color: #28a745;
     text-align: center;
@@ -170,6 +164,7 @@ h3{
 .eventosFotos {
     width: 100%;
     height: 400px;
+    margin: 15px;
     background-size: 100% 100%;
     background-image: url('../imagens/titulados.JPG');
 }
@@ -185,10 +180,12 @@ h3{
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
 }
 .eventosFotosNiver {
     width: 100%;
     height: 400px;
+    margin: 15px;
     background-size: 100% 100%;
     background-image: url('../imagens/aniversario.JPG');
 }
@@ -204,8 +201,11 @@ h3{
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
+   
 }
 .eventosFotosEstreia{
+    margin: 15px;
     width: 100%;
     height: 400px;
     background-size: 100% 100%;
@@ -217,18 +217,22 @@ h3{
     height: 100%;
     display: block;
     color:  transparent;
+    
 }
 
 .eventosFotosEstreia > h1:hover {
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
+    
 }
 .eventosFotosRodeio{
     width: 100%;
     height: 400px;
     background-size: 100% 100%;
     background-image: url('../imagens/rodeio2.jpg');
+    margin: 15px;
 }
 
 .eventosFotosRodeio > h1 {
@@ -242,10 +246,13 @@ h3{
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
+    
 }
 .eventosFotosFest{
     width: 100%;
     height: 400px;
+    margin: 15px;
     background-size: 100% 100%;
     background-image: url('../imagens/rodeio.jpg');
 }
@@ -261,12 +268,15 @@ h3{
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
+    
 }
 .eventosFotosAber{
     width: 100%;
     height: 400px;
     background-size: 100% 100%;
     background-image: url('../imagens/abertura.JPG');
+    margin: 15px;  
 }
 
 .eventosFotosAber > h1 {
@@ -280,4 +290,6 @@ h3{
     color: white;
     opacity: 0.5;
     background-color: black;
+    padding-top: 200px;
+    
 }
